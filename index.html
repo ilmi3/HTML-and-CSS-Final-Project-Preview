@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>training_studio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container nav-container">
+            <a href="#home" class="logo">Training <span>Studio</span></a>
+            
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">&#9776;</button>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#programs" class="nav-link">Programs</a></li>
+                <li><a href="#classes" class="nav-link">Classes</a></li>
+                <li><a href="#schedule" class="nav-link">Schedules</a></li>
+                <li><a href="#trainers" class="nav-link">Trainers</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#contact" class="btn btn-primary" style="padding: 8px 16px;">Sign Up</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <p class="hero-subtitle">Work Harder, Get Stronger</p>
+            <h1 class="hero-title">Easy With Our <span>Gym</span></h1>
+            <p class="hero-description">
+                Empower your body and mind with certified fitness trainers, specialized workout plans, and cutting-edge equipment designed for optimal results.
+            </p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn btn-primary">Become A Member</a>
+                <a href="#programs" class="btn btn-outline">Explore Programs</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="programs" class="programs section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Choose <span>Program</span></h2>
+                <div class="divider"></div>
+                <p>Our studio offers specialized fitness modules engineered to help you achieve your unique fitness goals efficiently and safely.</p>
+            </div>
+
+            <div class="program-grid">
+                <div class="program-card">
+                    <div>
+                        <div class="program-icon">&#127947;</div>
+                        <h3>Basic Fitness</h3>
+                        <p>Ideal for beginners looking to build foundational strength, endurance, and overall body wellness with dynamic routines.</p>
+                    </div>
+                    <a href="#contact" class="program-link">Discover More &#10140;</a>
+                </div>
+
+                <div class="program-card">
+                    <div>
+                        <div class="program-icon">&#127939;</div>
+                        <h3>Advanced Muscle</h3>
+                        <p>High-intensity hypertrophy training tailored for experienced athletes aiming to push their physique to peak levels.</p>
+                    </div>
+                    <a href="#contact" class="program-link">Discover More &#10140;</a>
+                </div>
+
+                <div class="program-card">
+                    <div>
+                        <div class="program-icon">&#129354;</div>
+                        <h3>New Body Building</h3>
+                        <p>Targeted progressive overload systems focusing on muscle symmetry, heavy compound lifting, and strict form mastery.</p>
+                    </div>
+                    <a href="#contact" class="program-link">Discover More &#10140;</a>
+                </div>
+
+                <div class="program-card">
+                    <div>
+                        <div class="program-icon">&#129496;</div>
+                        <h3>Yoga & Flexibility</h3>
+                        <p>Balance your strength training with deep dynamic stretching, core stabilization, and mind-body alignment.</p>
+                    </div>
+                    <a href="#contact" class="program-link">Discover More &#10140;</a>
+                </div>
+
+                <div class="program-card">
+                    <div>
+                        <div class="program-icon">&#9889;</div>
+                        <h3>Cardio Power</h3>
+                        <p>Accelerate fat loss and boost stamina through fast-paced interval cardio, sprint protocols, and plyometrics.</p>
+                    </div>
+                    <a href="#contact" class="program-link">Discover More &#10140;</a>
+                </div>
+
+                <div class="program-card">
+                    <div>
+                        <div class="program-icon">&#127919;</div>
+                        <h3>Body Transformation</h3>
+                        <p>Comprehensive challenge incorporating customized workout tracking, nutrition planning, and continuous check-ins.</p>
+                    </div>
+                    <a href="#contact" class="program-link">Discover More &#10140;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-banner">
+        <div class="container">
+            <h2>Don't Think, Begin Today!</h2>
+            <p>Take the first step toward a healthier, stronger body. Join our fitness family today and experience world-class facilities.</p>
+            <a href="#contact" class="btn btn-dark">Get Started Now</a>
+        </div>
+    </section>
+
+    <section id="classes" class="classes section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span>Classes</span></h2>
+                <div class="divider"></div>
+                <p>Explore our specialized training sessions conducted by certified master instructors.</p>
+            </div>
+
+            <div class="tabs-wrapper">
+                <div class="tab-menu">
+                    <button class="tab-btn active" data-tab="tab-1">
+                        First Training Class <span>&#10140;</span>
+                    </button>
+                    <button class="tab-btn" data-tab="tab-2">
+                        Second Training Class <span>&#10140;</span>
+                    </button>
+                    <button class="tab-btn" data-tab="tab-3">
+                        Third Training Class <span>&#10140;</span>
+                    </button>
+                    <button class="tab-btn" data-tab="tab-4">
+                        Fourth Training Class <span>&#10140;</span>
+                    </button>
+                </div>
+
+                <div class="tab-contents">
+                    <div id="tab-1" class="tab-content active">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=1000" alt="First Training Class">
+                        <h3>First Training Class - Basic Fitness</h3>
+                        <p>Start your workout routine with foundational aerobic and anaerobic conditioning. This program focuses on dynamic movement, posture correction, core engagement, and building baseline stamina to prepare you for advanced stages.</p>
+                        <a href="#schedule" class="btn btn-primary">View Class Schedule</a>
+                    </div>
+
+                    <div id="tab-2" class="tab-content">
+                        <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&q=80&w=1000" alt="Second Training Class">
+                        <h3>Second Training Class - Advanced Muscle</h3>
+                        <p>Intense bodybuilding hypertrophy sessions aimed at mass building and strength development. Includes resistance machine routines, free weight lifts, and power lifting protocols carefully monitored by our senior coaches.</p>
+                        <a href="#schedule" class="btn btn-primary">View Class Schedule</a>
+                    </div>
+
+                    <div id="tab-3" class="tab-content">
+                        <img src="https://images.unsplash.com/photo-1534367507873-d2d7e24c797f?auto=format&fit=crop&q=80&w=1000" alt="Third Training Class">
+                        <h3>Third Training Class - Body Sculpting</h3>
+                        <p>High energy cardio-resistance combinations designed to maximize metabolic burn, sculpt core abdominals, and increase physical agility under expert structural supervision.</p>
+                        <a href="#schedule" class="btn btn-primary">View Class Schedule</a>
+                    </div>
+
+                    <div id="tab-4" class="tab-content">
+                        <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&q=80&w=1000" alt="Fourth Training Class">
+                        <h3>Fourth Training Class - Yoga & Balance</h3>
+                        <p>Rejuvenate your joints, release muscle tension, and enhance mobility. Combines traditional Hatha and Vinyasa flow elements with guided breathwork to promote total mental and physical well-being.</p>
+                        <a href="#schedule" class="btn btn-primary">View Class Schedule</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="schedule section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Classes <span>Schedule</span></h2>
+                <div class="divider"></div>
+                <p>Select a day to view available training slots, class types, and instructors.</p>
+            </div>
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-day="monday">Monday</button>
+                <button class="filter-btn" data-day="tuesday">Tuesday</button>
+                <button class="filter-btn" data-day="wednesday">Wednesday</button>
+                <button class="filter-btn" data-day="thursday">Thursday</button>
+                <button class="filter-btn" data-day="friday">Friday</button>
+                <button class="filter-btn" data-day="saturday">Saturday</button>
+            </div>
+
+            <div class="table-container">
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Class Name</th>
+                            <th>Time Slot</th>
+                            <th>Trainer</th>
+                            <th style="text-align: right;">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="schedule-body">
+            
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="trainers" class="trainers section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Expert <span>Trainers</span></h2>
+                <div class="divider"></div>
+                <p>Meet our team of certified strength conditioning specialists and professional instructors.</p>
+            </div>
+
+            <div class="trainers-grid">
+                <div class="trainer-card">
+                    <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?auto=format&fit=crop&q=80&w=800" alt="Bret D. Bowers" class="trainer-img">
+                    <div class="trainer-info">
+                        <span class="trainer-role">Strength & Power Coach</span>
+                        <h3>Bret D. Bowers</h3>
+                        <p>Over 10 years of experience coaching Olympic lifters and strength athletes. Specializes in heavy barbell mechanics.</p>
+                    </div>
+                </div>
+
+                <div class="trainer-card">
+                    <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?auto=format&fit=crop&q=80&w=800" alt="Hector T. Da Silva" class="trainer-img">
+                    <div class="trainer-info">
+                        <span class="trainer-role">Bodybuilding Specialist</span>
+                        <h3>Hector T. Da Silva</h3>
+                        <p>Former competitive bodybuilder dedicated to helping clients build lean muscle mass through tailored programming.</p>
+                    </div>
+                </div>
+
+                <div class="trainer-card">
+                    <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&q=80&w=800" alt="Paul D. Newman" class="trainer-img">
+                    <div class="trainer-info">
+                        <span class="trainer-role">Yoga & Mobility Coach</span>
+                        <h3>Paul D. Newman</h3>
+                        <p>Expert in holistic fitness, functional movement, dynamic flexibility, and stress-reduction breathwork techniques.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Don't Hesitate to <span>Contact Us</span></h2>
+                <div class="divider"></div>
+                <p>Have questions or ready to start your membership? Get in touch with our team today.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info-box">
+                    <iframe class="map-frame" src="https://maps.google.com/maps?q=Beverly+Hills+CA&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h4>Address</h4>
+                            <p>123 Fitness Ave, Beverly Hills, CA</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Phone</h4>
+                            <p>+1 (555) 019-2834</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Email</h4>
+                            <p>info@trainingstudio.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Working Hours</h4>
+                            <p>Mon - Sun: 06:00 - 22:00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-box">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" class="form-control" placeholder="e.g. John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email *</label>
+                            <input type="email" id="email" class="form-control" placeholder="e.g. john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" placeholder="e.g. Membership Inquiry">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" class="form-control" placeholder="Tell us about your fitness goals..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Copyright &copy; <span id="year"></span> Training Studio - Fitness Center</p>
+        </div>
+    </footer>
+
+    <div id="toast" class="toast">Your message has been sent successfully!</div>
+
+    <script>
+
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        const mobileToggle = document.getElementById('mobile-toggle');
+        const navMenu = document.getElementById('nav-menu');
+
+        mobileToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('open');
+        });
+
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('open');
+            });
+        });
+
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                tabBtns.forEach(b => b.classList.remove('active'));
+                tabContents.forEach(c => c.classList.remove('active'));
+
+                btn.classList.add('active');
+                const targetId = btn.getAttribute('data-tab');
+                document.getElementById(targetId).classList.add('active');
+            });
+        });
+
+        const scheduleData = {
+            monday: [
+                { name: "Fitness Class", time: "10:00AM - 11:30AM", trainer: "William G. Stewart" },
+                { name: "Muscle Training", time: "02:00PM - 03:30PM", trainer: "Paul D. Newman" },
+                { name: "Body Building", time: "06:00PM - 07:30PM", trainer: "Hector T. Da Silva" }
+            ],
+            tuesday: [
+                { name: "Yoga Training", time: "08:00AM - 09:30AM", trainer: "Paul D. Newman" },
+                { name: "Advanced Muscle", time: "11:30AM - 01:00PM", trainer: "Bret D. Bowers" },
+                { name: "Cardio Interval", time: "05:00PM - 06:30PM", trainer: "Hector T. Da Silva" }
+            ],
+            wednesday: [
+                { name: "Body Building", time: "10:00AM - 11:30AM", trainer: "Hector T. Da Silva" },
+                { name: "Fitness Class", time: "02:00PM - 03:30PM", trainer: "William G. Stewart" },
+                { name: "Power Lifting", time: "06:00PM - 07:30PM", trainer: "Bret D. Bowers" }
+            ],
+            thursday: [
+                { name: "Yoga & Flexibility", time: "09:00AM - 10:30AM", trainer: "Paul D. Newman" },
+                { name: "Fitness Class", time: "01:00PM - 02:30PM", trainer: "William G. Stewart" },
+                { name: "Advanced Muscle", time: "06:00PM - 07:30PM", trainer: "Bret D. Bowers" }
+            ],
+            friday: [
+                { name: "Cardio Power", time: "10:00AM - 11:30AM", trainer: "Hector T. Da Silva" },
+                { name: "Body Building", time: "03:00PM - 04:30PM", trainer: "William G. Stewart" },
+                { name: "Yoga Conditioning", time: "06:00PM - 07:30PM", trainer: "Paul D. Newman" }
+            ],
+            saturday: [
+                { name: "Weekend Bootcamp", time: "09:00AM - 11:00AM", trainer: "Bret D. Bowers" },
+                { name: "Open Gym & Mobility", time: "01:00PM - 03:00PM", trainer: "All Trainers" }
+            ]
+        };
+
+        const scheduleBody = document.getElementById('schedule-body');
+        const filterBtns = document.querySelectorAll('.filter-btn');
+
+        function renderSchedule(day) {
+            const items = scheduleData[day] || [];
+            scheduleBody.innerHTML = items.map(item => `
+                <tr>
+                    <td class="class-name">${item.name}</td>
+                    <td>${item.time}</td>
+                    <td>${item.trainer}</td>
+                    <td style="text-align: right;">
+                        <a href="#contact" class="btn btn-primary" style="padding: 6px 14px; font-size: 0.75rem;">Join</a>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                renderSchedule(btn.getAttribute('data-day'));
+            });
+        });
+
+        renderSchedule('monday');
+
+        const contactForm = document.getElementById('contact-form');
+        const toast = document.getElementById('toast');
+
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            toast.classList.add('show');
+            contactForm.reset();
+
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3500);
+        });
+
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                if (window.scrollY >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
